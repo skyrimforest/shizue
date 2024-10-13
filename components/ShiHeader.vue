@@ -2,7 +2,7 @@
   <div id="outer-box">
     <div id="head-box">
     <div id="left-box">
-      <img id="left-image" src="/img/dongban.png"></img>
+      <img id="left-image" src="/img/dongban.png"/>
     </div>
 
     <div id="right-box">
@@ -21,12 +21,16 @@
             NanJing University丨DisLab
           </div>
           <div class="row">
+          </div>
+          <div class="row">
+          </div>
+          <div class="row">
             Contact me by: hitskyrim@qq.com
           </div>
         </div>
 
         <div id="right-image-box">
-          <img id="right-image" src="/img/nju.png"> </img>
+          <img id="right-image" src="/img/nju.png"/>
         </div>
       </div>
       <div id="right-down-box">
