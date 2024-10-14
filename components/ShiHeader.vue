@@ -35,21 +35,21 @@
                 <td class="split"></td>
 
                 <td class="cell">
-                  <NuxtLink to="/MainInfo">
+                  <NuxtLink to="/MainEducation">
                     <div class="row">Education</div>
                   </NuxtLink>
                 </td>
                 <td class="split"></td>
 
                 <td class="cell">
-                  <NuxtLink to="/MainInfo">
+                  <NuxtLink to="/MainHonor">
                     <div class="row">Honors</div>
                   </NuxtLink>
                 </td>
                 <td class="split"></td>
 
                 <td class="cell">
-                  <NuxtLink to="/MainInfo">
+                  <NuxtLink to="/MainInterest">
                     <div class="row">Interests</div>
                   </NuxtLink>
                 </td>
@@ -64,5 +64,5 @@
 
 <style lang="scss" scoped>
 // @import url("~/assets/css/ShiHeader.css");
-@use "~/assets/scss/ShiHeader.scss"
+@use "~/assets/scss/ShiHeader.scss";
 </style>
