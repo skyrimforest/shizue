@@ -6,7 +6,14 @@
         </div> -->
         <MainHeader> </MainHeader>
 
-        <div id="inner-down-box">荣誉</div>
+        <div id="inner-down-box">
+          <ul>
+
+            <li>
+              <div class="row">2021 National Awards</div>
+            </li>
+          </ul>
+        </div>
       </el-scroller>
     </div>
   </div>

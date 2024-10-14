@@ -36,7 +36,7 @@
   
                   <td class="cell">
                     <NuxtLink to="/MainInfo/_1">
-                      <div class="row">Education</div>
+                      <div class="row">Technology</div>
                     </NuxtLink>
                   </td>
                   <td class="split"></td>

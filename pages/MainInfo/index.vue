@@ -12,13 +12,30 @@
               <div class="row">This is a Short Biology</div>
             </li>
             <li>
-              <div class="row">Getting my Master's Degree at NJU. Majoring in Computer Science.</div>
+              <div class="row">
+                Getting my Master's Degree at NJU. Majoring in Computer Science.
+              </div>
             </li>
             <li>
-              <div class="row">Majoring in Infomation Security at Harbin Institude of Technology and get Bachelor's Degree there.</div>
+              <div class="row">
+                Majoring in Infomation Security at Harbin Institude of
+                Technology and get Bachelor's Degree there.
+              </div>
             </li>
             <li>
-              <div class="row"></div>
+              <div class="row">
+                Friendly and cheerful personality, strong communication skills,
+                willing to cooperate with others.
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                Strong learning ability, eager to learn new knowledge, generous
+                to share, often write technical articles.
+              </div>
+            </li>
+            <li>
+              <div class="row">Please contact me by Email for more info.</div>
             </li>
           </ul>
         </div>
