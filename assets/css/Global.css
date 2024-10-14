@@ -1,4 +1,20 @@
 body {
-    margin: 0; /* 去掉默认边距 */
-    padding: 0; /* 去掉默认内边距（如果需要） */
+    margin: 0;
+    /* 去掉默认边距 */
+    padding: 0;
+    /* 去掉默认内边距（如果需要） */
+}
+
+#outer-box {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-image: url('/shizue.github.io/img/1919.png');
+    /* 设置背景图片 */
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

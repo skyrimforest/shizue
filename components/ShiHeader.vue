@@ -28,28 +28,28 @@
             <tbody>
               <tr>
                 <td class="cell">
-                  <NuxtLink to="/posts/1">
+                  <NuxtLink to="/MainInfo">
                     <div class="row">Biology</div>
                   </NuxtLink>
                 </td>
                 <td class="split"></td>
 
                 <td class="cell">
-                  <NuxtLink to="/posts/1">
+                  <NuxtLink to="/MainInfo">
                     <div class="row">Education</div>
                   </NuxtLink>
                 </td>
                 <td class="split"></td>
 
                 <td class="cell">
-                  <NuxtLink to="/posts/1">
+                  <NuxtLink to="/MainInfo">
                     <div class="row">Honors</div>
                   </NuxtLink>
                 </td>
                 <td class="split"></td>
 
                 <td class="cell">
-                  <NuxtLink to="/posts/1">
+                  <NuxtLink to="/MainInfo">
                     <div class="row">Interests</div>
                   </NuxtLink>
                 </td>
@@ -62,6 +62,7 @@
   </div>
 </template>
 
-<style>
-@import url("~/assets/css/ShiHeader.css");
+<style lang="scss" scoped>
+// @import url("~/assets/css/ShiHeader.css");
+@use "~/assets/scss/ShiHeader.scss"
 </style>

@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   experimental: {
     payloadExtraction: false,
   },
+  plugins: ["@/plugins/element-plus"],
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     baseURL: "/shizue.github.io/",

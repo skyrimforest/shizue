@@ -1,16 +1,13 @@
-#outer-box {
-    width: 100vw;
-    height: 100vh;
+#header-outer-box{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
-
 #head-box {
-    width: 100vw;
-    height: 86vh;
-    margin-top: 30px;
+    width: 960px;
+    height: 400px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -18,78 +15,62 @@
     flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.6);
 }
-
 #left-box {
-    width: 28vw;
-    height: 86vh;
+    width: 300px;
+    height: 400px;
     margin-right: 30px;
 }
-
 #left-image {
-    width: 28vw;
-    height: 86vh;
+    width: 300px;
+    height: 400px;
     overflow: hidden;
     object-fit: contain
 }
-
 .right-box {
-    width: 60vw;
-    height: 86vh;
+    width: 600px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 #right-upper-box {
-    width: 45vw;
-    height: 70vh;
+    width: 600px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
-
 #info-box {
-    width: 45vw;
-    height: 47vh;
+    width: 440px;
+    height: 200px;
     display: flex;
     flex-direction: column;
 }
-
 #name {
-    font-size: clamp(20px, 10vh, 60px);
-    /* font-size: 60px; */
+    font-size: 60px;
 }
-
 .row {
     height: 35px;
-    font-size: clamp(9px, 4.2vh, 25px);
-
-    /* font-size: 25px; */
+    font-size: 25px;
 }
-
 #right-image-box {
-    width: 15vw;
-    height: 47vh;
+    width: 165px;
+    height: 220px;
 }
-
 #right-image {
-    width: 15vw;
-    height: 30vh;
+    width: 165px;
+    height: 220px;
     overflow: hidden;
     object-fit: contain
 }
-
-
 #right-down-box {
-    width: 41vw;
-    height: 13vh;
+    width: 500px;
+    height: 100px;
 }
-
 .split {
     width: 0px;
     background-color: black;
 }
-
 .cell {
     width: 50px;
     background-color: azure

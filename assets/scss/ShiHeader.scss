@@ -1,0 +1,158 @@
+#outer-box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#head-box {
+  width: 100vw;
+  height: 86vh;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+$normal-image-width: 28vw;
+$normal-image-height: 86vh;
+
+$small-image-width: 45vw;
+$small-image-height: 50vh;
+
+#left-box {
+  width: $normal-image-width;
+  height: $normal-image-height;
+  margin-right: 30px;
+}
+
+#left-image {
+  width: $normal-image-width;
+  height: $normal-image-height;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+@media (max-width: 1280px) {
+  #left-box {
+    width: $small-image-width;
+    margin-right: 30px;
+  }
+
+  #left-image {
+    width: $small-image-width;
+    height: $small-image-height;
+    overflow: hidden;
+    object-fit: contain;
+  }
+}
+
+.right-box {
+  width: 60vw;
+  height: 86vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#right-upper-box {
+  width: 45vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#info-box {
+  width: 45vw;
+  height: 47vh;
+  display: flex;
+  flex-direction: column;
+}
+
+$normal-name-size: 60px;
+$normal-row-size: 25px;
+$small-name-size: 35px;
+$small-row-size: 15px;
+
+$normal-line-height: 35px;
+$small-line-height: 30px;
+
+#name {
+  font-size: $normal-name-size;
+  /* font-size: 60px; */
+}
+
+.row {
+  height: $normal-line-height;
+  font-size: $normal-row-size;
+  /* font-size: 25px; */
+}
+
+@media (max-width: 1280px) {
+  #name {
+    font-size: $small-name-size;
+    /* font-size: 60px; */
+  }
+
+  .row {
+    height: $small-line-height;
+    font-size: $small-row-size;
+
+    /* font-size: 25px; */
+  }
+}
+
+$normal-nju-width: 15vw;
+$normal-nju-height: 47vh;
+
+$small-nju-width: 0;
+$small-nju-height: 0;
+
+#right-image-box {
+  width: $normal-nju-width;
+  height: $normal-nju-height;
+}
+
+#right-image {
+  width: $normal-nju-width;
+  height: $normal-nju-height;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+@media (max-width: 1280px) {
+  #right-image-box {
+    margin-top: 30px;
+    width: $small-nju-width;
+    height:$small-nju-height;
+  }
+
+  #right-image {
+    margin-top: 30px;
+    width: $small-nju-width;
+    height:$small-nju-height;
+    overflow: hidden;
+    object-fit: contain;
+  }
+}
+
+#right-down-box {
+  width: 41vw;
+  height: 13vh;
+}
+
+.split {
+  width: 0px;
+  background-color: black;
+}
+
+.cell {
+  width: 50px;
+  background-color: azure;
+}
