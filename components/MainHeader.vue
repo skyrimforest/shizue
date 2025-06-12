@@ -2,8 +2,7 @@
   <div id="header-outer-box">
     <div id="head-box">
       <div id="left-box">
-        <!-- <NuxtImg id="left-image" src="/img/dongban.png" /> -->
-        <img id="left-image" src="/img/dongban.png" />
+        <img id="left-image" src="/img/dongban3.png" />
       </div>
 
       <div id="right-box">
