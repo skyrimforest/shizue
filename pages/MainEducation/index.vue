@@ -1,8 +1,7 @@
 <template>
   <div id="outer-box">
     <div id="inner-box">
-      <el-scroller max-height="2000px">
-        <MainHeader> </MainHeader>
+      <MainHeader> </MainHeader>
 
         <div id="inner-down-box">
           <ul>
@@ -33,18 +32,18 @@
             </li>
             <li>
               <div class="row">
-                Master MySql, Sqlite, Redis and so on. Master Linux
-                instructions, be able to use Linux system skillfully.
+                Proficient with MySQL, SQLite, Redis, etc. Skilled with Linux
+                and daily development on it.
               </div>
             </li>
             <li>
               <div class="row">
-                Understand Vue and react, can use modern fronten tool chains.
+                Familiar with Vue and React, can use modern frontend tool
+                chains.
               </div>
             </li>
           </ul>
         </div>
-      </el-scroller>
     </div>
   </div>
 </template>

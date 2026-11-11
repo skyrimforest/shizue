@@ -1,6 +1,8 @@
+// 首页整卡头部
 #outer-box {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -8,151 +10,204 @@
 }
 
 #head-box {
-  width: 100vw;
-  height: 86vh;
-  margin-top: 30px;
+  width: min(1060px, 100%);
+  height: auto;
+  box-sizing: border-box;
+  margin-top: 0;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: rgba(255, 255, 255, 0.6);
+  padding: 44px 52px 36px;
+  background-color: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(14px) saturate(1.15);
+  -webkit-backdrop-filter: blur(14px) saturate(1.15);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
 }
 
-$normal-image-width: 28vw;
-$normal-image-height: 86vh;
-
-$small-image-width: 45vw;
-$small-image-height: 50vh;
-
 #left-box {
-  width: $normal-image-width;
-  height: $normal-image-height;
-  margin-right: 30px;
+  width: 300px;
+  height: auto;
+  margin-right: 40px;
+  flex-shrink: 0;
 }
 
 #left-image {
-  width: $normal-image-width;
-  height: $normal-image-height;
-  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 400px;
   object-fit: contain;
+  border-radius: 14px;
 }
 
-@media (max-width: 1280px) {
-  #left-box {
-    width: $small-image-width;
-    margin-right: 30px;
-  }
-
-  #left-image {
-    width: $small-image-width;
-    height: $small-image-height;
-    overflow: hidden;
-    object-fit: contain;
-  }
-}
-
-.right-box {
-  width: 60vw;
-  height: 86vh;
+#right-box {
+  flex: 1;
+  min-width: 300px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 #right-upper-box {
-  width: 45vw;
-  height: 70vh;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
 }
 
 #info-box {
-  width: 45vw;
-  height: 47vh;
+  flex: 1;
+  min-width: 0;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
 
-$normal-name-size: 60px;
-$normal-row-size: 25px;
-$small-name-size: 35px;
-$small-row-size: 15px;
-
-$normal-line-height: 35px;
-$small-line-height: 30px;
-
 #name {
-  font-size: $normal-name-size;
-  /* font-size: 60px; */
+  height: auto;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+  color: var(--text-main);
 }
 
-.row {
-  height: $normal-line-height;
-  font-size: $normal-row-size;
-  /* font-size: 25px; */
+#info-box .row {
+  height: auto;
+  font-size: 17px;
+  line-height: 1.9;
+  color: var(--text-sub);
 }
-
-@media (max-width: 1280px) {
-  #name {
-    font-size: $small-name-size;
-    /* font-size: 60px; */
-  }
-
-  .row {
-    height: $small-line-height;
-    font-size: $small-row-size;
-
-    /* font-size: 25px; */
-  }
-}
-
-$normal-nju-width: 15vw;
-$normal-nju-height: 47vh;
-
-$small-nju-width: 0;
-$small-nju-height: 0;
 
 #right-image-box {
-  width: $normal-nju-width;
-  height: $normal-nju-height;
+  width: 140px;
+  height: auto;
+  flex-shrink: 0;
+  margin-left: 8px;
 }
 
 #right-image {
-  width: $normal-nju-width;
-  height: $normal-nju-height;
-  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: auto;
   object-fit: contain;
 }
 
-@media (max-width: 1280px) {
-  #right-image-box {
-    margin-top: 30px;
-    width: $small-nju-width;
-    height:$small-nju-height;
-  }
-
-  #right-image {
-    margin-top: 30px;
-    width: $small-nju-width;
-    height:$small-nju-height;
-    overflow: hidden;
-    object-fit: contain;
-  }
-}
-
+// 导航药丸
 #right-down-box {
-  width: 41vw;
-  height: 13vh;
+  width: 100%;
+  height: auto;
+  margin-top: 26px;
 }
 
-.split {
-  width: 0px;
-  background-color: black;
+table {
+  border-collapse: separate;
+  border-spacing: 10px 0;
+  margin: 0 -10px;
 }
 
-.cell {
-  width: 50px;
-  background-color: azure;
+td.split {
+  width: 6px;
+  background-color: transparent;
+}
+
+td.cell {
+  width: auto;
+  background-color: transparent;
+}
+
+td.cell a {
+  text-decoration: none;
+}
+
+td.cell .row {
+  display: inline-block;
+  height: auto;
+  padding: 9px 26px;
+  border-radius: 999px;
+  background-color: var(--accent-light);
+  color: var(--accent);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+td.cell a:hover .row,
+td.cell a.router-link-exact-active .row {
+  background-color: var(--accent);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(122, 46, 142, 0.35);
+}
+
+@media (max-width: 1280px) {
+  #outer-box {
+    align-items: flex-start;
+    padding-top: 32px;
+  }
+
+  #head-box {
+    padding: 26px 24px 22px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #left-box {
+    width: 200px;
+    margin-right: 0;
+    margin-bottom: 16px;
+    align-self: center;
+  }
+
+  #left-image {
+    max-height: 260px;
+  }
+
+  #right-upper-box {
+    gap: 14px;
+  }
+
+  #name {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+
+  #info-box .row {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  #right-image-box {
+    width: 90px;
+    margin-left: 0;
+  }
+
+  #right-down-box {
+    margin-top: 16px;
+  }
+
+  table,
+  tbody,
+  tr {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  td.split {
+    display: none;
+  }
+
+  td.cell .row {
+    padding: 6px 16px;
+    font-size: 13px;
+  }
 }

@@ -1,16 +1,10 @@
 <template>
   <div id="outer-box">
     <div id="inner-box">
-      <el-scroller max-height="2000px">
-        <!-- <div id="inner-upper-box">
-        </div> -->
-        <MainHeader> </MainHeader>
+      <MainHeader> </MainHeader>
 
         <div id="inner-down-box">
           <ul>
-            <li>
-              <div class="row">This is a Short Biology</div>
-            </li>
             <li>
               <div class="row">
                 Getting my Master's Degree at NJU. Majoring in Computer Science.
@@ -18,8 +12,20 @@
             </li>
             <li>
               <div class="row">
-                Majoring in Infomation Security at Harbin Institude of
-                Technology and get Bachelor's Degree there.
+                Majoring in Information Security at Harbin Institute of
+                Technology and got my Bachelor's Degree there.
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                My research focuses on cloud-edge collaborative systems and
+                video stream analytics.
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                I have published papers at INFOCOM 2026 (CCF-A) and APWeb-WAIM
+                2024 (Best Demo Paper Award), and in CCF T1/T2 Chinese journals.
               </div>
             </li>
             <li>
@@ -39,7 +45,6 @@
             </li>
           </ul>
         </div>
-      </el-scroller>
     </div>
   </div>
 </template>

@@ -8,12 +8,11 @@
       <div id="right-box">
         <div id="right-upper-box">
           <div id="info-box">
-            <div id="name">Shizue 静江</div>
-            <div class="row">Male丨2001丨Master's Degree</div>
-            <div class="row">ENFP丨Libra</div>
-            <div class="row">NanJing University丨DisLab</div>
-            <div class="row"></div>
-            <div class="row"></div>
+            <div id="name">Shizue</div>
+            <div class="row">Male | 2001 | Master's Degree</div>
+            <div class="row">ENFP | Libra</div>
+            <div class="row">NanJing University | DisLab</div>
+            <div class="row">Cloud-Edge Systems · Video Stream Analytics</div>
             <div class="row">Contact me by: hitskyrim@qq.com</div>
           </div>
 
@@ -28,14 +27,14 @@
               <tr>
                 <td class="cell">
                   <NuxtLink to="/MainInfo">
-                    <div class="row">Biology</div>
+                    <div class="row">Bio</div>
                   </NuxtLink>
                 </td>
                 <td class="split"></td>
 
                 <td class="cell">
                   <NuxtLink to="/MainEducation">
-                    <div class="row">Education</div>
+                    <div class="row">Technology</div>
                   </NuxtLink>
                 </td>
                 <td class="split"></td>

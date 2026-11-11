@@ -1,15 +1,12 @@
 <template>
   <div id="outer-box">
     <div id="inner-box">
-      <el-scroller max-height="2000px">
-        <!-- <div id="inner-upper-box">
-        </div> -->
-        <MainHeader> </MainHeader>
+      <MainHeader> </MainHeader>
 
         <div id="inner-down-box">
           <ul>
             <li>
-              <div class="row">Bicyling.</div>
+              <div class="row">Cycling.</div>
             </li>
             <li>
               <div class="row">Reading.</div>
@@ -20,20 +17,19 @@
             </li>
 
             <li>
-              <div class="row">Watching JP Animation or TV Series.</div>
+              <div class="row">Watching anime and TV series.</div>
             </li>
             <li>
               <div class="row">Happy to share my life.</div>
             </li>
             <li>
               <div class="row">
-                If we have something in common and you think we may be friend,
-                contact me!
+                If we have something in common and you think we could be
+                friends, contact me!
               </div>
             </li>
           </ul>
         </div>
-      </el-scroller>
     </div>
   </div>
 </template>
